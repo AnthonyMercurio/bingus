@@ -1,22 +1,123 @@
 <!DOCTYPE html>
-<html lang="en" dir="1tr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tony Mercurio's Website</title>
-    <link rel="stylesheet" href="main.css">
-  </head>
-  <body class="light-theme">
-    <h1>Tony Mercurio</h1>
-    <p id="msg">Hello! This is my excuse of a website.</p>
-    <ul>
-      <li class="list">Resume</li>
-      <li class="list">Contact</li>
-    </ul>
-    <div>
+<html>
+
+<head>
+  <title> Tony Mercurio's Website </title>
+
+<link href = "NavBarStyle.css" rel = "stylesheet" type = "text/css">
+
+  <!--- Mobile Friendly Line -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    /* Centers the headshot photo */
+
+    .center {
+      border-radius: 25px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      padding: 20px;
+}
+
+     div.headshot {
+      position: relative;
+      left: 100px;
+      top: 40px;
+      }
+
+      div.description {
+      position: relative;
+      left: 140px;
+      top: 90px;
+      }
+
+      div.links {
+        position: relative;
+        left: 140px;
+        top: 80px;
+
+      }
+
+      div.resume {
+        position: relative;
+        left: 140px;
+        top: 80px;
+      }
+
+  </style>
+</head>
+
+<!-- Navigation Menu -->
+<header>
+    <div class="container">
+      <h1 class="logo">Tony Mercurio</h1>
+
+
+      <nav>
+        <ul>
+          <!-- <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li> -->
+        </ul>
+      </nav>
     </div>
-    <script src="app.js"></script>
-    <noscript>You need to enable JavaScript to view the full site.</noscript>
-  </body>
+  </header>
+
+<body>
+
+<!-- Commented Out Site Label
+ <h1 style="text-align: center;">
+Jamison Mercurio's Website
+</h1> -->
+
+<!-- Attempt at putting image on left, text on right -->
+<div class = "headshot" style="display:inline-block;vertical-align:top;">
+
+  <img src="chungcover.jpg" alt="Tony Mercurio Headshot" class="center"style="width:300px;height:300px;">
+</div>
+
+<!-- Attempt at putting image on left, text on right -->
+<div style="display:inline-block;">
+
+<div class = "description">
+    <p style="text-align: center;">
+      I am big chungus. Fuck Weezer. :pensive:
+    </p>
+</div>
+
+<div class = "links"> <!-- Attempt at putting image on left, text on right -->
+  <!-- Put Links Side by Side Using a Table -->
+  <table align="center" style="width: 5%">
+    <tr>
+      <td>
+        <!-- LinkedIn Badge Code I Wrote -->
+        <!-- <a href='https://www.linkedin.com/in/jamison-mercurio?trk=profile-badge'>
+<img src="LinkedIn.png" alt="LinkedIn" class = "center" style= "width: 60px; height: 60px;">
+</a> -->
+      </td>
+      <td>
+        <!-- Github Badge Code I Wrote -->
+        <!-- <a href='https://github.com/JamisonMercurio'>
+<img src="Github1.png" alt="Github" class = "center" style= "width: 42px; height: 42px;">
+</a> -->
+      </td>
+
+    </tr>
+  </table>
+</div>   <!-- Attempt at putting image on left, text on right -->
+
+<div class = "resume"> <!-- Attempt at putting image on left, text on right -->
+  <!-- Resume Link Centered and Attached -->
+  <p style="text-align: center;">
+
+  <a href="https://tonymercurio.com/Mercurio_Resume.pdf"><b>My Resume</b></a>
+
+  </p>
+</div> <!-- Attempt at putting image on left, text on right -->
+</div> <!-- Attempt at putting image on left, text on right -->
+
+</body>
+
 </html>

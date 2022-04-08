@@ -12,7 +12,7 @@ body {
 }
 
 header {
-   background: #55d6aa; /* Green in navBar */
+   background: hsl(266, 77%, 66%); /* Green in navBar */
 }
 
 header::after {
